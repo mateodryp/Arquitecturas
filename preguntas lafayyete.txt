@@ -1,0 +1,18 @@
+para el exterior:
+- Ciudad Dane. bogota
+- Departamento Dane. bogota
+CampoTexto8
+
+
+
+- Correo. Que hacer en el caso que no lo tenga (exterior)
+- Dirrección.
+
+- CAMPO ID 444-CONSECUTIVO 
+
+- Tipo ID (Ellos tienen mapeado los codigos Dian y les tomaria trabajo enviar codigos Ebill)
+
+- Codigo del pais con 3 letras o con dos?
+tiene que ser de 2
+
+- codigo serviente de una manera mas general (Pendiente).

@@ -1,0 +1,71 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:OnlineGeneration>
+         <!--Optional:-->
+         <tem:ruc>900059238</tem:ruc>
+         <!--Optional:-->
+         <tem:Login/>
+         <!--Optional:-->
+         <tem:clave>88833C6E-AD43-4E7D-9A9F-132199692827</tem:clave>
+         <!--Optional:-->
+         <tem:docTxt>EN|91|F|SETT|4002159|2022-04-07|16:40:01|COP||1|31|900059238|MAKRO|MAKRO SUPERMAYORISTA S.A.S.|11001|||BOGOTA, D.C.|BOGOTA||cal 19 sur|CO|48|01|31|0099949137|SUPERMERCADO MERCATODO DE OCCIDENTE|SUPERMERCADO MERCATODO DE OCCIDENTE||||||BOGOTA, D.C.|centro calle 8 7 59|CO|48|3781.50|3781.50|4500.00|0.00|0|0|4500.00|0
+ENEX|UBL 2.1|10|||||||2022-04-04||16:40:01||4690;4649;4711;4731|es|es|5|11001|BOGOTA, D.C.|BOGOTA|11|cal 19 sur|CO|Colombia|5|31||7|11001|BOGOTA, D.C.|BOGOTA|11|centro calle 8 7 59|CO|Colombia|7|31|1|NC|01552666|11|Colombia|11001|BOGOTA|Colombia|11|111711|111711
+
+DE|1|100|94|1.00000|3781.51|3781.51||||false||||||
+DEDI|Arepas de Doña Rosita****|94|1.00000||3781.51|
+DEDI|4500.00
+DEDIEX||999|1||
+DEIM|718.49|3781.51|718.49|19.00|01|IVA||||0.00
+RE|91|SETT-74064|5|Rescisión: nulidad por falta de requisitos|2022-04-04|29d43d0fbbf7126a9ea5301dc83f8b3aebd3ea9578bed71cc627b019f7a5fa084fc262c0aedd96312771efb4a241848c|
+
+DIT|718.50
+DI||3781.51|718.49|19.00|01||IVA||0.00
+FP|1|10|2022-04-04|10113381
+CTE||||dte_9000592385@dte.paperless.com.co|
+CTR||||mercatodo.viterbo@gmail.com|
+TRE|O-13;O-15|IVA|01
+TRR|R-99-PN|IVA|01
+PE|Plantilla|T07_MBS.jasper
+PE|idInterno|1338
+PE|CorreoDist|mercatodo.viterbo@gmail.com
+PE|PasaporteCliente|310099949137mercatodo.viterbo@gmail.com
+PE|BarrioCliente|BOGOTA, D.C.
+PE|TelefonoCliente|N/A
+PE|CodigoBarras|20220013381640010080
+PE|PPLTienda|
+PE|PPLCaja|001
+PE|vrEfectivo|-4500.00
+PE|vrCambio|0.00
+PE|Caja|001
+PE|TotalArticulos|1
+PE|TextoFecha|04-04-2022     16:40     005001 202200000050011338
+PES|CentroDist
+PESD|1| tienda
+PESD|2|cal 19 sur
+PES|ResolucionesFactura
+PESD|1|AGENTE RETENEDOR DE IVA Res.812 Ene/2006
+PESD|2|REG.COMUN GRAN CONTRIB Res.9061 Dic/2020
+PESD|3|AUTORETENEDORES DEL IMPUESTO DE RENTA SEGUN RESOL No 1524 DE FEB 20 DE 2006
+PES|Regimen
+PESD|1|REG.COMUN GRAN CONTRIB Res.9061 Dic/2020
+PESD|2| AUTORETENEDORES DEL IMPUESTO DE RENTA
+PESD|3| SEGUN RESOL NO 1524 DE FEB 20 DE 2006
+PESD|4|        AGENTE RETENEDOR DE IVA  
+PESD|5|      RESOLUCION 00812 30/01/2006      
+PESD|6|
+PESD|7|
+PESD|8|
+PES|Falabella
+PESD|1|Gracias por tu visita
+PESD|2|    
+PESD|3|  
+PES|CambioMercancia
+PESD|1|(*)BIENES EXENTOS-DECRETO 417 DE 2020 CAMBIOS DENTRO DE LOS 7 DIAS HABILES A PARTIR DE LA COMPRA,PRESENTA LA FACTURA</tem:docTxt>
+         <!--Optional:-->
+         <tem:tipoFoliacion>7</tem:tipoFoliacion>
+         <!--Optional:-->
+         <tem:tipoRetorno>5</tem:tipoRetorno>
+      </tem:OnlineGeneration>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,63 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:OnlineGeneration>
+         <!--Optional:-->
+         <tem:ruc>900059238</tem:ruc>
+         <!--Optional:-->
+         <tem:Login/>
+         <!--Optional:-->
+         <tem:clave>88833C6E-AD43-4E7D-9A9F-132199692827</tem:clave>
+         <!--Optional:-->
+         <tem:docTxt>EN|1|F|SETT|4001143|2022-03-23|18:34:00|COP|0|1|31|900059238|MAKRO SUPERMAYORISTA S.A.S|MAKRO SUPERMAYORISTA S.A.S|23001|||MONTERIA|23||Cra.  14  No.  48 A 42 |CO|48|1|13|70698741|GIRALDO GARCIA ELKIN DARIO|GIRALDO GARCIA ELKIN DARIO||||||Cordoba|CALL 14 # 27-116|CO|49|13238095.24|13238095.24|13900000.00|0|0|0|13900000.00
+ENEX|UBL 2.1|10|||||||2022-02-10||18:34:00||4690;4649;4711;4731|es|es|5|23001|MONTERIA|Cordoba|23|Cra.  14  No.  48 A 42 |CO|Colombia|5|31||5 |23001|MONTERIA|Cordoba|23|CALL 14 # 27-116|CO|Colombia|1|13|1.00|16FD|01552666|23|Colombia|23001|Cordoba|Colombia|23|111711|111711|
+RS|2019-01-19|2030-01-19|SETT|1|50000000||18760000001
+DE|1|28912|C62|100|137142.86|13238095.24||0.00||false
+DEDI|AZUCAR BLANCA LA CABANA 50kg
+DEDI|13900000.00
+DEDIEX||999|1|||
+DEIM|661904.52|13238095.24|661904.52|5.00|01|IVA||C62|6619.0452
+DEDR|false|476190.48|3.47|||13714285.71
+DIT|661904.76
+DI||13238095.00|661904.76|5|01|661904.76|IVA||
+PE|prom|0
+PE|zona|16929905
+PE|idInterno|166 202241935
+PE|Caja|6 28
+PE|CentroDistribucion|MAKRO MONTERIA
+PE|TelCentroDistribucion|7849899
+PE|PasaporteCliente|16 22585510
+PE|DirCentroDistribucion|Cra.  14  No.  48 A 42 
+PE|BarrioCliente|N/A
+PE|TelefonoCliente|
+PE|CorreoDist|lospaisitassanmarcos@gmail.com
+PE|CodigoBarras|220419351834060280246
+PE|vrCreditoDirecto|13.900.000,00
+FP|1|ZZZ|2022-02-10|215902731
+PE|Plantilla|T01_MBS.jasper
+PE|Impresora|10.51.33.72
+PE|Copias|3
+PE|PPLTienda|ST16
+PE|PPLCaja|99
+PES|ResolucionesFactura
+PESD|1|AGENTE RETENEDOR DE IVARESOLUCION 00812 30/01/2006
+PESD|2|Somos REG.COMUN GRAN CONTRIB Res.9061 Dic/2020
+PESD|3|Somos AUTORETENEDORES DEL IMPUESTO DE RENTA SEGUN RESOL No 1524 DE FEB 20 DE 2006
+PES|TextoInformativoFactura
+PESD|1|ACEPTO QUE HE RECIBIDO, LOS BIENES DESCRITOS Y LA PRESENTE FACTURA, EN LA FECHA DE EXPEDICION DE LA MISMA Y ACEPTO LA PRESENTE FACTURA Y LAS OBLIGACIONES CONTENIDAS EN ELLA
+PESD|2|LA PRESENTE FACTURA VENCE A LOS TREINTA  (30) DIAS CORRIENTES CONTADOS A PARTIR DE LA EXPEDICION DE LA MISMA
+PESD|3|LA PRESENTE FACTURA CAMBIARIA DE COMPRAVENTA SE ASIMILA A LETRA DE CAMBIO (ART. 774 DEL CODIGO DE COMERCIO)
+PES|CambioMercancia
+PESD|1|(*)BIENES EXENTOS - DECRETO 417 DE 2020 CAMBIOS DENTRO DE LOS 7 DIAS HABILES A PARTIR DE LA COMPRA,PRESENTA LA FACTURA
+PESD|2|Observaciones: S/N
+CTE||||dte_9000592385@dte.paperless.com.co|
+CTR||||info@spsmarine.com|
+TRE|O-13;O-15|IVA|01
+TRR|R-99-PN|IVA|01</tem:docTxt>
+         <!--Optional:-->
+         <tem:tipoFoliacion>1</tem:tipoFoliacion>
+         <!--Optional:-->
+         <tem:tipoRetorno>5</tem:tipoRetorno>
+      </tem:OnlineGeneration>
+   </soapenv:Body>
+</soapenv:Envelope>

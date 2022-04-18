@@ -1,0 +1,11 @@
+Metodo para consultar documentos con CUFE, ESTADO DIAN
+FV_ConsultaEstado_DIANV2
+
+Ellos no quieren respuestas automaticas, solo quieren enviar el request y consumir
+
+Consulta masiva de documentos (tablas de referencia)
+-------------------------------------------------------------------
+
+2 tipos de negocios
+presta servicio directamente al cliente
+intermediario(actor)

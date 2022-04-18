@@ -1,0 +1,22 @@
+¿Resolucion nota de ajuste?
+resolucion interna
+
+¿Varias NA asociadas a un NOF?
+PEN
+
+¿Separacion con Guion el campo referencia?
+pre-numero
+
+¿Que datos se pueden cambiar con nota de ajuste? Alcance
+solo precios
+
+
+¿Que pasa cuando tengo mas de un procuto en una NC, afectan en algo, distribucion de ajuste parcial?
+ellos lo deciden
+
+¿Tiempo maximo para generar una NA para la DIAN?
+PEN
+
+FTP?
+
+Campo texto 8, todos los campos vienen por PIPE, TXT?#

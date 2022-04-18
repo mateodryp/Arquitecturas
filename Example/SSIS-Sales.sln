@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS-Sales", "SSIS-Sales\SSIS-Sales.dtproj", "{0C7237BD-E8B6-4181-A8D3-9642E39F48C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C7237BD-E8B6-4181-A8D3-9642E39F48C7}.Development|Default.ActiveCfg = Development
+		{0C7237BD-E8B6-4181-A8D3-9642E39F48C7}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A2D5A56-13F1-4954-A18A-2A2269F15383}
+	EndGlobalSection
+EndGlobal

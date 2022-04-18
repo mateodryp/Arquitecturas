@@ -1,0 +1,84 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:OnlineGeneration>
+         <!--Optional:-->
+         <tem:ruc>900059238</tem:ruc>
+         <!--Optional:-->
+         <tem:Login/>
+         <!--Optional:-->
+         <tem:clave>88833C6E-AD43-4E7D-9A9F-132199692827</tem:clave>
+         <!--Optional:-->
+         <tem:docTxt>EN|01|F|SETT|90001|2021-12-07|17:37:14|COP||1|31|900059238|MAKRO|MAKRO SUPERMAYORISTA S.A.S.|11001|||BOGOTÁ, D.c.|Bogotá||Calle 96 # 13 - 19|CO|48|02|13|100003|MANOLO GUTIERREZ|MANOLO||||||MEDELLÍN|.|CO|49|390476.20|390476.20|410000.00|0.00|0|0|410000.00|0
+ENEX|UBL 2.1|10|||||||2021-12-07||17:37:14||4690;4649;4711;4731|es|es|5|11001|BOGOTÁ, D.c.|Bogotá|11|Calle 96 # 13 - 19|CO|Colombia|5|31|||05001|MEDELLÍN|Antioquia|05|.|CO|Colombia||13|2|SETT|01552666|11|Colombia|05001|Antioquia|Colombia|05|111711|111711
+RS|2022-02-17|2028-02-17|SETT|1|1000000||1702202246542
+DE|1|100365|94|1.00000|9523.81|9523.81||||false||||||
+DEDI|SALSA TOMT LOCSMS 1000g|94|1.00000||9523.81|
+DEDI|10000.00
+DEDIEX||999|1||
+DEIM|476.19|9523.81|476.19|5.00|01|IVA||||0.00
+DE|2|48971|94|4.00000|95238.10|380952.40||||false||||||
+DEDI|AZUCAR ARO BLANCA X50kg|94|4.00000||380952.40|
+DEDI|400000.00
+DEDIEX||999|1||
+DEIM|19047.62|380952.40|19047.62|5.00|01|IVA||||0.00
+DEDR|false|40000.00|9.09|||440000.00
+
+
+DIT|19523.80
+DI||390476.21|19523.81|5.00|01||IVA||0.00
+
+FP|1|48|2021-12-07|123
+CTE||||dte_9000592385@dte.paperless.com.co|
+CTR||||123333|
+TRE|O-13;O-15|IVA|01
+TRR|R-99-PN|IVA|01
+
+PE|Plantilla|T01_MBS.jasper
+PE|idInterno|2077
+PE|CorreoDist|123333
+PE|PasaporteCliente|13100003123333
+PE|BarrioCliente|MEDELLÍN
+PE|TelefonoCliente|N/A
+PE|CodigoBarras|20210020771737010090
+PE|PPLTienda|ST05
+PE|PPLCaja|901
+PE|vrTcredito|410000.00
+PE|vrCambio|0.0000
+PE|Caja|901
+PE|TotalArticulos|2
+PE|TextoFecha|07-12-2021     17:37     005901 202100000059012077
+
+PES|CentroDist
+PESD|1| Tienda Demo
+PESD|2|Calle 96 # 13 - 19
+
+PES|ResolucionesFactura
+PESD|1|AGENTE RETENEDOR DE IVA Res.812 Ene/2006
+PESD|2|REG.COMUN GRAN CONTRIB Res.9061 Dic/2020
+PESD|3|AUTORETENEDORES DEL IMPUESTO DE RENTA SEGUN RESOL No 1524 DE FEB 20 DE 2006
+
+PES|Regimen
+PESD|1|REG.COMUN GRAN CONTRIB Res.9061 Dic/2020
+PESD|2| AUTORETENEDORES DEL IMPUESTO DE RENTA 
+PESD|3| SEGUN RESOL NO 1524 DE FEB 20 DE 2006 
+PESD|4|        AGENTE RETENEDOR DE IVA                   
+PESD|5|      RESOLUCION 00812 30/01/2006      
+PESD|6|
+PESD|7|
+PESD|8|
+
+PES|Falabella
+PESD|1|Gracias por tu visita
+PESD|2|    
+PESD|3|   
+
+PES|CambioMercancia
+PESD|1|(*)BIENES EXENTOS-DECRETO 417 DE 2020 CAMBIOS DENTRO DE LOS 7 DIAS HABILES A PARTIR DE LA COMPRA,PRESENTA LA FACTURA</tem:docTxt>
+         <!--Optional:-->
+         <tem:tipoFoliacion>1</tem:tipoFoliacion>
+         <!--Optional:-->
+         <tem:tipoRetorno>5</tem:tipoRetorno>
+      </tem:OnlineGeneration>
+   </soapenv:Body>
+</soapenv:Envelope>

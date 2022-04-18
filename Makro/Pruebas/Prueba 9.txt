@@ -1,0 +1,74 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:OnlineGeneration>
+         <!--Optional:-->
+         <tem:ruc>900059238</tem:ruc>
+         <!--Optional:-->
+         <tem:Login/>
+         <!--Optional:-->
+         <tem:clave>88833C6E-AD43-4E7D-9A9F-132199692827</tem:clave>
+         <!--Optional:-->
+         <tem:docTxt>EN|01|F|SETT|90002|2022-03-07|12:38:27|COP||1|31|900059238|MAKRO PRUEBAS|MAKRO SUPERMAYORISTAS S.A.S|11001|||BOGOTA D.C.|DISTRITO CAPITAL||AUTSUR CR 63 # 57G47|CO|48|2|13|123456|José|José||||||Chia|Cra 8 # 181f - 85|CO|49|8408.00|8408.00|8408.00|0.00|0.00|0.00|8408.00
+ENEX|UBL 2.1|10|||||||2021-02-17||2021-02-17||4690;4649;4711;4731|es|es|5|11001|BOGOTA D.C.|DISTRITO CAPITAL|11|AUTSUR CR 63 # 57G47|CO|Colombia||13|||25175|Chia|Cundinamarca|25|Cra 8 # 181f - 85|CO|Colombia||13|1|SETT|01552666|11|Colombia|25175|Cundinamarca|Colombia|25|111911|111911
+RS|2022-02-17|2028-02-17|SETT|1|1000000|365ade4d5f4e67dc2888355c39cceda553ecd7f3f76ff554e10c8ff93ff581ed|17022246542
+DE|1||5C|1.05|8000.00|8408.00||0.00||false
+DEDI|Corriente
+DEDI|8408.00
+DEDIEX||999||||
+DEIM|0.00|8408.00|0.00|0.00|01|IVA||5C|0.00
+DIT|0.00
+DI||8408.00|0.00|0.00|01|0.00|IVA||
+FP|1|10|2022-03-07|
+PE|Plantilla|T01_ch.jasper
+PE|CorreoDist|insepet@insepet.com
+PE|PasaporteCliente|
+PE|CodigoBarras|6930
+PE|PPLTienda|ST01      
+PE|PPLCaja|74        
+PE|vrPuntosCMR|0.00
+PE|vrEfectivo|8000.00
+PE|vrTdebito|0.00
+PE|vrCheque|0.00
+PE|vrChequePost|0.00
+PE|vrBonos|0.00
+PE|vrTcredito|0.00
+PE|vrTprivada|0.00
+PE|vrNotaCredito|0.00
+PE|vrCreditoDirecto|0.00
+PE|vrDonacion|0.00
+PE|vrCambio|0.00
+PE|Caja|74        
+PE|TotalArticulos|1
+PE|TextoFecha|07-03-2022
+PES|CentroDist
+PESD|1|BOGOTA D.C.
+PESD|2|AUTSUR CR 63 # 57G47
+PES|Regimen
+PESD|1|REG.COMUN GRAN CONTRIB RES.9061 DIC/2020 
+PESD|2| AUTORET.IMP.RENTA RES 1524 20-FEB-2006 
+PESD|3|        AGENTE RETENEDOR DE IVA         
+PESD|4|      RESOLUCION 00812 30/01/2006       
+PESD|5|
+PESD|6|
+PESD|7|
+PESD|8|
+PES|Falabella
+PESD|1|Gracias por tu visita
+PESD|2|
+PESD|3|
+PES|CambioMercancia
+PESD|1|(*)BIENES EXENTOS - DECRETO 417 DE 2020    
+PESD|2| CAMBIOS DENTRO DE LOS 7 DIAS HABILES A 
+PESD|3|PARTIR DE LA COMPRA,PRESENTA LA FACTURA
+CTE||||dte_9000592385@dte.paperless.com.co|
+CTR||||insepet@insepet.com|
+TRE|O-13;O-15|IVA|01
+TRR|R-99-PN|IVA|01</tem:docTxt>
+         <!--Optional:-->
+         <tem:tipoFoliacion>1</tem:tipoFoliacion>
+         <!--Optional:-->
+         <tem:tipoRetorno>5</tem:tipoRetorno>
+      </tem:OnlineGeneration>
+   </soapenv:Body>
+</soapenv:Envelope>

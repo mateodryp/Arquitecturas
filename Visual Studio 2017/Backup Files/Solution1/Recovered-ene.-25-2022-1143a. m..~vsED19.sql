@@ -1,0 +1,1 @@
+SELECT cfd_observaciones, cfd_referencia FROM CFD_cfd_informacion WHERE CFD_Emp_id_empresa = '6140' ORDER BY CFD_fecha_hora_generacion

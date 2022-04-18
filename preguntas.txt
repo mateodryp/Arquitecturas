@@ -1,0 +1,18 @@
+Codigos de respuesta? OK
+Traer lista de documentos ante la Dian?
+Traer PDF? Jh
+
+Temas de seguridad, como controlamos quien hace los request? Julian
+
+
+subir documentos diariamente, cuando se reportan ante la Dian? Semanal
+
+Restricciones para subir ese documento. ok
+
+En que intervalos se deben reportar los documentos?Diaro o un dia a la semana acumulado
+
+10 documentos  - estado - pdf
+
+Mapeo Jhonnathan.
+
+Obligatoriedad Jhonnathan.

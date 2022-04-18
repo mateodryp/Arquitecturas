@@ -1,0 +1,75 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:ebil="http://schemas.datacontract.org/2004/07/eBillCore" xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:FV_CargarDocumentosElectronicosToeBillGenericFULLPDFCUFE>
+         <tem:FacCab>
+            <ebil:AnoAprobacionRes>2021</ebil:AnoAprobacionRes>
+            <ebil:CFD_LineCountNumeric>1</ebil:CFD_LineCountNumeric>
+            <ebil:CFD_LineExtensionAmount>100000.00</ebil:CFD_LineExtensionAmount>
+            <ebil:CFD_ProfileExecutionID>2</ebil:CFD_ProfileExecutionID>
+            <ebil:CFD_TaxExclusiveAmount>0.00</ebil:CFD_TaxExclusiveAmount>
+            <ebil:CFD_TaxInclusiveAmount>100000</ebil:CFD_TaxInclusiveAmount>
+            <ebil:CFD_TaxPointDate>2022-03-22</ebil:CFD_TaxPointDate>
+            <ebil:CFD_total_cargos>0.00</ebil:CFD_total_cargos>
+            <ebil:CFD_total_descuentos>0.00</ebil:CFD_total_descuentos>
+            <ebil:CampoTexto4>DSNR</ebil:CampoTexto4>
+            <ebil:CiudadDANE>11001</ebil:CiudadDANE>
+            <ebil:CodigoPostalCliente>111111</ebil:CodigoPostalCliente>
+            <ebil:Condiciones_Pago>10</ebil:Condiciones_Pago>
+            <ebil:CorreoCliente>mateodryp@gmail.com</ebil:CorreoCliente>
+            <ebil:DepartamentoDANE>11</ebil:DepartamentoDANE>
+            <ebil:DigitoVerificaCliente></ebil:DigitoVerificaCliente>
+            <ebil:DireccionCliente>Cra. 14 # 98 - 51 Oficina 604</ebil:DireccionCliente>
+            <ebil:EstiloFactura>404</ebil:EstiloFactura>
+            <ebil:FV_RFI_Id_Regimen_Fiscal>4</ebil:FV_RFI_Id_Regimen_Fiscal>
+            <ebil:FV_TDD_Code_TipoDocumentoDIAN>05</ebil:FV_TDD_Code_TipoDocumentoDIAN>
+            <ebil:FechaExpedicion>2022-03-22T09:37:49</ebil:FechaExpedicion>
+            <ebil:FechaVencimiento>2022-03-22T09:37:49</ebil:FechaVencimiento>
+            <ebil:FormaPago>1</ebil:FormaPago>
+            <ebil:MonedaISO>COP</ebil:MonedaISO>
+            <ebil:NitCliente>654321555</ebil:NitCliente>
+            <ebil:NitEmpresa>900306823</ebil:NitEmpresa>
+            <ebil:NombreCliente>EMPRESA EXTRANJERA</ebil:NombreCliente>
+            <ebil:NumAprobacionRes>220320221111</ebil:NumAprobacionRes>
+            <ebil:NumFactura>10001</ebil:NumFactura>
+            <ebil:PAI_ISO_3166>CO</ebil:PAI_ISO_3166>
+            <ebil:Prefijo>SETT</ebil:Prefijo>
+            <ebil:TelefonoCliente>42231231</ebil:TelefonoCliente>
+            <ebil:TipoComprobante>33</ebil:TipoComprobante>
+            <ebil:TipoIDCliente>7</ebil:TipoIDCliente>
+            <ebil:TotalIVA>0</ebil:TotalIVA>
+            <ebil:Total_a_Pagar>100000.00</ebil:Total_a_Pagar>
+         </tem:FacCab>
+
+         <tem:DetFac>
+            <!--Zero or more repetitions:-->
+            <ebil:FV_CFDDetConexionInt>
+               <ebil:CON_dato_decimal1>100000.00</ebil:CON_dato_decimal1>
+               <ebil:CON_dato_decimal2>100</ebil:CON_dato_decimal2>
+               <ebil:CON_dato_texto1>999</ebil:CON_dato_texto1>
+               <ebil:CON_dato_texto2>Estándar de adopción del contribuyente</ebil:CON_dato_texto2>
+               <ebil:CON_dato_texto4>COD123</ebil:CON_dato_texto4>
+               <ebil:Cantidad>1000</ebil:Cantidad>
+               <ebil:CodigoProducto>COD123</ebil:CodigoProducto>
+               <ebil:CodigosString>COD123</ebil:CodigosString>
+               <ebil:DescripcionProducto>Facturacion Electronica</ebil:DescripcionProducto>
+               <ebil:IVAProducto>0.00</ebil:IVAProducto>
+               <ebil:ItemReferencia>1</ebil:ItemReferencia>
+               <ebil:PorIVAProducto>0</ebil:PorIVAProducto>
+               <ebil:IdConcepto>0</ebil:IdConcepto>
+               <ebil:ValorUnitario>100.00</ebil:ValorUnitario>
+               <ebil:con_recurrente>false</ebil:con_recurrente>
+            </ebil:FV_CFDDetConexionInt>
+         </tem:DetFac>
+         <!--Optional:-->
+         <tem:Opciones>
+            <ebil:ActualizaProductos>false</ebil:ActualizaProductos>
+            <ebil:EmisionAutomatica>false</ebil:EmisionAutomatica>
+            <ebil:FacturasSinAcuerdo>true</ebil:FacturasSinAcuerdo>
+            <ebil:TieneAcuerdosFisicos>true</ebil:TieneAcuerdosFisicos>
+            <ebil:TokenConexion>0CA473A5-5699-4AAE-BEA5-BEAB6D7A5804</ebil:TokenConexion>
+            <ebil:eBillAdmNumerosFactura>false</ebil:eBillAdmNumerosFactura>
+         </tem:Opciones>
+      </tem:FV_CargarDocumentosElectronicosToeBillGenericFULLPDFCUFE>
+   </soapenv:Body>
+</soapenv:Envelope>

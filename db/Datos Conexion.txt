@@ -1,0 +1,3 @@
+Server name: dwh-kmre.database.windows.net
+User: sakmre
+Password: Reino@777

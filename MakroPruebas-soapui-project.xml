@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="8efcf127-b6f9-4714-9f30-b53291ca5d1f" activeEnvironment="Default" name="MakroPruebas" resourceRoot="" soapui-version="5.6.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="0b2a906a-5de2-4bfb-aaba-3b9497f2bea9" wsaVersion="NONE" name="BasicHttpBinding_IIntegracionOtrosPT" type="wsdl" bindingName="{http://tempuri.org/}BasicHttpBinding_IIntegracionOtrosPT" soapVersion="1_1" anonymous="optional" definition="http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc?wsdl"><con:part><con:url>http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="IntegracionOtrosPT" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc?xsd=xsd0" namespace="http://tempuri.org/"/>
+      <xsd:import schemaLocation="http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IIntegracionOtrosPT_OnlineGeneration_InputMessage">
+    <wsdl:part name="parameters" element="tns:OnlineGeneration"/>
+  </wsdl:message>
+  <wsdl:message name="IIntegracionOtrosPT_OnlineGeneration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OnlineGenerationResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IIntegracionOtrosPT_OnlineRecovery_InputMessage">
+    <wsdl:part name="parameters" element="tns:OnlineRecovery"/>
+  </wsdl:message>
+  <wsdl:message name="IIntegracionOtrosPT_OnlineRecovery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OnlineRecoveryResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="IIntegracionOtrosPT">
+    <wsdl:operation name="OnlineGeneration">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIntegracionOtrosPT/OnlineGeneration" message="tns:IIntegracionOtrosPT_OnlineGeneration_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IIntegracionOtrosPT/OnlineGenerationResponse" message="tns:IIntegracionOtrosPT_OnlineGeneration_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="OnlineRecovery">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIntegracionOtrosPT/OnlineRecovery" message="tns:IIntegracionOtrosPT_OnlineRecovery_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IIntegracionOtrosPT/OnlineRecoveryResponse" message="tns:IIntegracionOtrosPT_OnlineRecovery_OutputMessage"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IIntegracionOtrosPT" type="tns:IIntegracionOtrosPT">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="OnlineGeneration">
+      <soap:operation soapAction="http://tempuri.org/IIntegracionOtrosPT/OnlineGeneration" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OnlineRecovery">
+      <soap:operation soapAction="http://tempuri.org/IIntegracionOtrosPT/OnlineRecovery" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IntegracionOtrosPT">
+    <wsdl:port name="BasicHttpBinding_IIntegracionOtrosPT" binding="tns:BasicHttpBinding_IIntegracionOtrosPT">
+      <soap:address location="http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc?xsd=xsd0</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/">
+  <xs:element name="OnlineGeneration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ruc" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="clave" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="docTxt" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="tipoFoliacion" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="tipoRetorno" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OnlineGenerationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="OnlineGenerationResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OnlineRecovery">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ruc" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="clave" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="tipoDoc" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="folio" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="tipoRetorno" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OnlineRecoveryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="OnlineRecoveryResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc?xsd=xsd1</con:url><con:content><![CDATA[<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
+  <xs:element name="anyType" nillable="true" type="xs:anyType"/>
+  <xs:element name="anyURI" nillable="true" type="xs:anyURI"/>
+  <xs:element name="base64Binary" nillable="true" type="xs:base64Binary"/>
+  <xs:element name="boolean" nillable="true" type="xs:boolean"/>
+  <xs:element name="byte" nillable="true" type="xs:byte"/>
+  <xs:element name="dateTime" nillable="true" type="xs:dateTime"/>
+  <xs:element name="decimal" nillable="true" type="xs:decimal"/>
+  <xs:element name="double" nillable="true" type="xs:double"/>
+  <xs:element name="float" nillable="true" type="xs:float"/>
+  <xs:element name="int" nillable="true" type="xs:int"/>
+  <xs:element name="long" nillable="true" type="xs:long"/>
+  <xs:element name="QName" nillable="true" type="xs:QName"/>
+  <xs:element name="short" nillable="true" type="xs:short"/>
+  <xs:element name="string" nillable="true" type="xs:string"/>
+  <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte"/>
+  <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt"/>
+  <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong"/>
+  <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort"/>
+  <xs:element name="char" nillable="true" type="tns:char"/>
+  <xs:simpleType name="char">
+    <xs:restriction base="xs:int"/>
+  </xs:simpleType>
+  <xs:element name="duration" nillable="true" type="tns:duration"/>
+  <xs:simpleType name="duration">
+    <xs:restriction base="xs:duration">
+      <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?"/>
+      <xs:minInclusive value="-P10675199DT2H48M5.4775808S"/>
+      <xs:maxInclusive value="P10675199DT2H48M5.4775807S"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="guid" nillable="true" type="tns:guid"/>
+  <xs:simpleType name="guid">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:attribute name="FactoryType" type="xs:QName"/>
+  <xs:attribute name="Id" type="xs:ID"/>
+  <xs:attribute name="Ref" type="xs:IDREF"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc</con:endpoint></con:endpoints><con:operation id="4eac3a9c-516e-418b-bab1-35aab36fa93d" isOneWay="false" action="http://tempuri.org/IIntegracionOtrosPT/OnlineGeneration" name="OnlineGeneration" bindingOperationName="OnlineGeneration" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5e5ae370-2afd-4a0c-9635-edfb17c8441e" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:OnlineGeneration>
+         <!--Optional:-->
+         <tem:ruc>9000592385</tem:ruc>
+         <!--Optional:-->
+         <tem:Login/>
+         <!--Optional:-->
+         <tem:clave>88833C6E-AD43-4E7D-9A9F-132199692827</tem:clave>
+         <!--Optional:-->
+         <tem:docTxt>EN|01|F|SETT|4002160|2022-04-12|13:38:00|COP||1|31|9000592385|MAKRO|MAKRO SUPERMAYORISTA S.A.S|23001|||MONTERIA|23||Cra.  14  No.  48 A 42 |CO|48|1|13|823004710|IPS DE LA COSTA SA|IPS DE LA COSTA SA||||||MONTERIA|CL 26 15-10|CO|49|278515.48|194712.48|284655.00|0.00|0.00|0.00|284655.00
+ENEX|UBL 2.1|10|||||||2022-02-10||13:38:00||4690;4649;4711;4731|es|es|5|23001|MONTERIA|CORDOBA|23|Cra.  14  No.  48 A 42 |CO|Colombia||13|||23001|MONTERIA|CORDOBA|23|CL 26 15-10|CO|Colombia||13|42|16FD|01552666|23|Colombia|23001|CORDOBA|Colombia|23|111711|111711
+RS|2019-01-19|2030-01-19|SETT|1|50000000||18760000001
+DE|1|130772|C62|1.00|13361.34|8655.46||0.00||false
+DEDI|OLIVETTO HUMMUS AGUACATE 220g
+DEDI|10300.00
+DEDIEX||999|1|||
+DEIM|1644.54|8655.46|1644.54|19.00|01|IVA||C62|1644.54
+DEDR|false|4705.88|35.22|||13361.34
+DE|2|109283|C62|1.00|8600.00|8600.00||0.00||false
+DEDI|QUESITO ALPINA 375g
+DEDI|8600.00
+DEDIEX||999|1|||
+DE|3|43524|BG|1.00|4800.00|4800.00||0.00||false
+DEDI|TOSTADA INTEGRAL BIMBO 160gEN10u
+DEDI|4800.00
+DEDIEX||999|1|||
+DEIM|0.00|4800.00|0.00|0.00|01|IVA||BG|0.00
+DE|4|133467|KGM|0.47|14900.84|7063.00||0.00||false
+DEDI|BRAZO DE CERDO DESHUESADO kg
+DEDI|7063.00
+DEDIEX||999|1|||
+DEIM|0.00|7063.00|0.00|0.00|01|IVA||KGM|0.00
+DE|5|500630|C62|1.95|50199.90|97689.00||0.00||false
+DEDI|LOMO FINO RES TERNEZ kg
+DEDI|97689.00
+DEDIEX||999|1|||
+DEIM|0.00|97689.00|0.00|0.00|01|IVA||C62|0.00
+DE|6|132264|KGM|1.05|24700.00|25935.00||0.00||false
+DEDI|BOTA POSTA RES ASISTIDA kg
+DEDI|25935.00
+DEDIEX||999|1|||
+DE|7|130375|C62|1.00|7900.00|7900.00||0.00||false
+DEDI|SUERO CREMA BONGA DEL SINU 400g
+DEDI|7900.00
+DEDIEX||999|1|||
+DE|8|130375|C62|1.00|7900.00|7900.00||0.00||false
+DEDI|SUERO CREMA BONGA DEL SINU 400g
+DEDI|7900.00
+DEDIEX||999|1|||
+DE|9|132253|KGM|0.90|20899.78|18768.00||0.00||false
+DEDI|CARNE SUDAR ASISTIDA kg
+DEDI|18768.00
+DEDIEX||999|1|||
+DE|10|31428|CH|1.00|6950.00|6950.00||0.00||false
+DEDI|CEBOLLA CABEZONA BLANCA PEL 1.5kg
+DEDI|6950.00
+DEDIEX||999|1|||
+DEIM|0.00|6950.00|0.00|0.00|01|IVA||CH|0.00
+DE|11|134130|C62|1.00|1700.00|1700.00||0.00||false
+DEDI|.ARROZ CANASTA BASICA BOLSA 500g
+DEDI|1700.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DE|12|134137|C62|1.00|2850.00|2850.00||0.00||false
+DEDI|.LENTEJA CANASTA BASICA BOLSA 45
+DEDI|2850.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DE|13|134139|C62|1.00|1900.00|1900.00||0.00||false
+DEDI|.ARVJ VED CNS BASC BLSA 454g
+DEDI|1900.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DE|14|134140|C62|1.00|900.00|900.00||0.00||false
+DEDI|.SAL CANASTA BASICA BOLSA 500g
+DEDI|900.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DE|15|134141|C62|1.00|1476.19|1476.19||0.00||false
+DEDI|.HRNA TRG CANS BAS BLS 500g
+DEDI|1550.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|73.81|1476.19|73.81|5.00|01|IVA||C62|73.81
+DE|16|134142|C62|1.00|2714.29|2714.29||0.00||false
+DEDI|.CAFE CANASTA BASICA BOLSA 125g
+DEDI|2850.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|135.71|2714.29|135.71|5.00|01|IVA||C62|135.71
+DE|17|134143|C62|1.00|857.14|857.14||0.00||false
+DEDI|.AVENA HOJUELA CANASTA BASICA BO
+DEDI|900.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|42.86|857.14|42.86|5.00|01|IVA||C62|42.86
+DE|18|134144|C62|1.00|1285.71|1285.71||0.00||false
+DEDI|.SPGT CANST BASIC BLSA 250g
+DEDI|1350.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|64.29|1285.71|64.29|5.00|01|IVA||C62|64.29
+DE|19|134146|C62|1.00|1333.33|1333.33||0.00||false
+DEDI|.FIDEOS CANASTA BASICA BOLSA 250
+DEDI|1400.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|66.67|1333.33|66.67|5.00|01|IVA||C62|66.67
+DE|20|134150|C62|1.00|2476.19|2476.19||0.00||false
+DEDI|.AZCR CANS BASIC BLSA 500g
+DEDI|2600.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|123.81|2476.19|123.81|5.00|01|IVA||C62|123.81
+DE|21|134151|C62|1.00|4327.73|4327.73||0.00||false
+DEDI|.ACEITE CANASTA BASICA BOLSA 450
+DEDI|5150.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|822.27|4327.73|822.27|19.00|01|IVA||C62|822.27
+DE|22|134152|C62|1.00|882.35|882.35||0.00||false
+DEDI|.SOPA VDR CNST BASC BLS 76g
+DEDI|1050.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|167.65|882.35|167.65|19.00|01|IVA||C62|167.65
+DE|23|134153|C62|1.00|840.34|840.34||0.00||false
+DEDI|.GLNA CRZA CANS BAS BLS 40g
+DEDI|1000.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|159.66|840.34|159.66|19.00|01|IVA||C62|159.66
+DE|24|134154|C62|1.00|1932.77|1932.77||0.00||false
+DEDI|.ATUN CANASTA BASICA BOLSA 170g
+DEDI|2300.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|367.23|1932.77|367.23|19.00|01|IVA||C62|367.23
+DE|25|134155|C62|1.00|1176.47|1176.47||0.00||false
+DEDI|.AVENAS CANASTA BASICA 200g
+DEDI|1400.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|223.53|1176.47|223.53|19.00|01|IVA||C62|223.53
+DE|26|134130|C62|1.00|1700.00|1700.00||0.00||false
+DEDI|.ARROZ CANASTA BASICA BOLSA 500g
+DEDI|1700.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DE|27|134137|C62|1.00|2850.00|2850.00||0.00||false
+DEDI|.LENTEJA CANASTA BASICA BOLSA 45
+DEDI|2850.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DE|28|134139|C62|1.00|1900.00|1900.00||0.00||false
+DEDI|.ARVJ VED CNS BASC BLSA 454g
+DEDI|1900.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DE|29|134140|C62|1.00|900.00|900.00||0.00||false
+DEDI|.SAL CANASTA BASICA BOLSA 500g
+DEDI|900.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DE|30|134141|C62|1.00|1476.19|1476.19||0.00||false
+DEDI|.HRNA TRG CANS BAS BLS 500g
+DEDI|1550.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|73.81|1476.19|73.81|5.00|01|IVA||C62|73.81
+DE|31|134142|C62|1.00|2714.29|2714.29||0.00||false
+DEDI|.CAFE CANASTA BASICA BOLSA 125g
+DEDI|2850.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|135.71|2714.29|135.71|5.00|01|IVA||C62|135.71
+DE|32|134143|C62|1.00|857.14|857.14||0.00||false
+DEDI|.AVENA HOJUELA CANASTA BASICA BO
+DEDI|900.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|42.86|857.14|42.86|5.00|01|IVA||C62|42.86
+DE|33|134144|C62|1.00|1285.71|1285.71||0.00||false
+DEDI|.SPGT CANST BASIC BLSA 250g
+DEDI|1350.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|64.29|1285.71|64.29|5.00|01|IVA||C62|64.29
+DE|34|134146|C62|1.00|1333.33|1333.33||0.00||false
+DEDI|.FIDEOS CANASTA BASICA BOLSA 250
+DEDI|1400.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|66.67|1333.33|66.67|5.00|01|IVA||C62|66.67
+DE|35|134150|C62|1.00|2476.19|2476.19||0.00||false
+DEDI|.AZCR CANS BASIC BLSA 500g
+DEDI|2600.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|123.81|2476.19|123.81|5.00|01|IVA||C62|123.81
+DE|36|134151|C62|1.00|4327.73|4327.73||0.00||false
+DEDI|.ACEITE CANASTA BASICA BOLSA 450
+DEDI|5150.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|822.27|4327.73|822.27|19.00|01|IVA||C62|822.27
+DE|37|134152|C62|1.00|882.35|882.35||0.00||false
+DEDI|.SOPA VDR CNST BASC BLS 76g
+DEDI|1050.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|167.65|882.35|167.65|19.00|01|IVA||C62|167.65
+DE|38|134153|C62|1.00|840.34|840.34||0.00||false
+DEDI|.GLNA CRZA CANS BAS BLS 40g
+DEDI|1000.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|159.66|840.34|159.66|19.00|01|IVA||C62|159.66
+DE|39|134154|C62|1.00|1932.77|1932.77||0.00||false
+DEDI|.ATUN CANASTA BASICA BOLSA 170g
+DEDI|2300.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|367.23|1932.77|367.23|19.00|01|IVA||C62|367.23
+DE|40|134155|C62|1.00|1176.47|1176.47||0.00||false
+DEDI|.AVENAS CANASTA BASICA 200g
+DEDI|1400.00
+DEDI|134156
+DEDI|CANASTA BASICA BOLSA
+DEDI|1
+DEDIEX||999|1|||
+DEIM|223.53|1176.47|223.53|19.00|01|IVA||C62|223.53
+DE|41|123605|CH|1.00|25000.00|25000.00||0.00||false
+DEDI|LCH DSLSEM COLANTA UHT 1000mlX6u
+DEDI|25000.00
+DEDIEX||999|1|||
+DEIM|0.00|25000.00|0.00|0.00|01|IVA||CH|0.00
+DE|42|126682|C62|10.00|700.00|5950.00||0.00||false
+DEDI|PAN MARCELINO ARO 55g
+DEDI|5950.00
+DEDIEX||999|1|||
+DEIM|0.00|5950.00|0.00|0.00|01|IVA||C62|0.00
+DEDR|false|1050.00|15.00|||7000.00
+DIT|6138.88
+DI||147452.00|0.00|0.00|01|0.00|IVA||
+DI||26975.12|5124.88|19.00|01|5124.88|IVA||
+DI||20286.00|1014.00|5.00|01|1014.00|IVA||
+FP|1|10|2022-02-10|2216017569691
+PE|Plantilla|T01_MBS.jasper
+PE|CodigoBarras|220411111341010380096
+PE|PPLTienda|ST16
+PE|PPLCaja|1
+PE|prom|0
+PE|zona|N/A
+PE|idInterno|1 2022041111
+PE|CentroDistribucion|MAKRO MONTERIA
+PE|DirCentroDistribucion|Cra.  14  No.  48 A 42 
+PE|TelCentroDistribucion|N/A
+PE|CorreoDist|secretariam@ipsdelacosta.co
+PE|PasaporteCliente|16-102633
+PE|BarrioCliente|MONTERIA
+PE|TelefonoCliente|CENTRO
+PE|vrPuntosCMR|0.00
+PE|vrEfectivo|300000.00
+PE|vrTdebito|0.00
+PE|vrCheque|0.00
+PE|vrChequePost|0.00
+PE|vrBonos|0.00
+PE|vrTcredito|0.00
+PE|vrTprivada|0.00
+PE|vrNotaCredito|0.00
+PE|vrCreditoDirecto|0.00
+PE|vrDonacion|0.00
+PE|vrCambio|-15345.00
+PE|Caja|1 38
+PE|TotalArticulos|23
+PE|TextoFecha|10-02-2022     13:41     1601 2022041111
+PES|CentroDist
+PESD|1|MAKRO MONTERIA
+PESD|2|Cra.  14  No.  48 A 42 
+PES|ResolucionesFactura
+PESD|1|AGENTE RETENEDOR IVA RES.00812 30/1/2006
+PESD|2|REG.COMUN GRAN CONTRIB Res.9061 Dic/2020
+PESD|3|AUTORETENEDORES DEL IMPUESTO DE RENTA SEGUN RESOL No 1524 DE FEB 20 DE 2006
+PES|Regimen
+PESD|1|REG.COMUN GRAN CONTRIB Res.9061 Dic/2020
+PESD|2| AUTORETENEDORES DEL IMPUESTO DE RENTA  
+PESD|3| SEGUN RESOL No 1524 DE FEB 20 DE 2006  
+PESD|4|        AGENTE RETENEDOR DE IVA         
+PESD|5|      RESOLUCION 00812 30/01/2006       
+PESD|6|
+PESD|7|
+PESD|8|
+PES|CambioMercancia
+PESD|1|(*)BIENES EXENTOS - DECRETO 417 DE 2020       CAMBIOS DENTRO DE LOS 7 DIAS HABILES A   PARTIR DE LA COMPRA,PRESENTA LA FACTURA 
+PES|Falabella
+PESD|1|Gracias por tu visita
+PESD|2|
+PESD|3|
+CTE||||dte_9000592385@dte.paperless.com.co|
+CTR||||secretariam@ipsdelacosta.co|
+TRE|O-13;O-15|IVA|01
+TRR|R-99-PN|IVA|01</tem:docTxt>
+         <!--Optional:-->
+         <tem:tipoFoliacion>7</tem:tipoFoliacion>
+         <!--Optional:-->
+         <tem:tipoRetorno>5</tem:tipoRetorno>
+      </tem:OnlineGeneration>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IIntegracionOtrosPT/OnlineGeneration"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="95ecc626-292b-4875-94b5-4bb9f4fa29ef" isOneWay="false" action="http://tempuri.org/IIntegracionOtrosPT/OnlineRecovery" name="OnlineRecovery" bindingOperationName="OnlineRecovery" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0e5f3781-7a09-429c-9927-64c1ee5659b1" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://testws.facturaenlinea.co/ServiciosFyM/eBill/IntegracionOtrosPT.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:OnlineRecovery>\r
+         <!--Optional:-->\r
+         <tem:ruc>900059238</tem:ruc>\r
+         <!--Optional:-->\r
+         <tem:Login></tem:Login>\r
+         <!--Optional:-->\r
+         <tem:clave>88833C6E-AD43-4E7D-9A9F-132199692827</tem:clave>\r
+         <!--Optional:-->\r
+         <tem:tipoDoc>1</tem:tipoDoc>\r
+         <!--Optional:-->\r
+         <tem:folio>SETT-4002152</tem:folio>\r
+         <!--Optional:-->\r
+         <tem:tipoRetorno>1</tem:tipoRetorno>\r
+      </tem:OnlineRecovery>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IIntegracionOtrosPT/OnlineRecovery"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

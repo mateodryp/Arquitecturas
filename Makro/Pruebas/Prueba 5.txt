@@ -1,0 +1,110 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:OnlineGeneration>
+         <!--Optional:-->
+         <tem:ruc>900059238</tem:ruc>
+         <!--Optional:-->
+         <tem:Login/>
+         <!--Optional:-->
+         <tem:clave>88833C6E-AD43-4E7D-9A9F-132199692827</tem:clave>
+         <!--Optional:-->
+         <tem:docTxt>EN|01|F|SETT|14|2022-02-04|17:35:00|COP||1|31|900059238|MAKRO|MAKRO SUPERMAYORISTA S.A.S|23001|||MONTERIA|23||Cra.  14  No.  48 A 42 |CO|48|1|31|11522211783|DISTRIBUIDORA MARIA C|DISTRIBUIDORA MARIA C||||||MONTERIA|CR 18 13A-94|CO|49|1832532.14|1778532.14|1935371.00|0.00|0.00|0.00|1935371.00
+ENEX|UBL 2.1|10|||||||2022-02-04||17:35:00||4690;4649;4711;4731|es|es|5|23001|MONTERIA|CORDOBA|23|Cra.  14  No.  48 A 42 |CO|Colombia|3|31||3|23001|MONTERIA|CORDOBA|23|CR 18 13A-94|CO|Colombia|3|31|5|16FD|01552666|23|Colombia|23001|CORDOBA|Colombia|23|111711|111711
+RS|2022-02-17|2028-02-17|SETT|1|1000000||1702202246542
+DE|1|114619|C62|204.00|2521.01|514114.28||0.00||false
+DEDI|GASEOSA COCACOLA 1.5l
+DEDI|611796.00
+DEDIEX||999|1|||
+DEIM|97681.71|514114.28|97681.71|19.00|01|IVA||C62|478.83
+DEDR|false|171.43|0.03|||514285.71
+DE|2|127878|PA|60.00|19600.00|1083000.00||0.00||false
+DEDI|GASEOSA BRETANA 300mlX12u
+DEDI|1083000.00
+DEDIEX||999|1|||
+DEIM|0.00|1083000.00|0.00|0.00|01|IVA||PA|0.00
+DEDR|false|93000.00|7.91|||1176000.00
+DE|3|106909|C62|5.00|26900.00|103142.86||0.00||false
+DEDI|WHISKY BLACK y WHITE 700ml
+DEDI|108300.00
+DEDIEX||999|1|||
+DEIM|5157.14|103142.86|5157.14|5.00|01|IVA||C62|1031.43
+DEDR|false|31357.14|23.31|||134500.00
+DE|4|106906|C62|5.00|15655.00|78275.00||||false
+DEDI|IMPOCONSUMO ITEM 106909
+DEDI|78275.00
+DEIM|0.00|78275.00|0.00|0.00|01|IVA||C62|0.00
+DE|5|122984|PA|120.00|500.00|54000.00||0.00||false
+DEDI|AGUA POOL SIN GAS 600ml
+DEDI|54000.00
+DEDIEX||999|1|||
+DEDR|false|6000.00|10.00|||60000.00
+DIT|102839.14
+DI||1161275.00|0.00|0.00|01|0.00|IVA||
+DI||514114.00|97682.00|19.00|01|97682.00|IVA||
+DI||103142.86|5157.14|5.00|01|5157.14|IVA||
+FP|1|ZZZ|2022-02-04|2216017565067
+PE|Plantilla|T01_MBS.jasper
+PE|CodigoBarras|220354741741010380167
+PE|PPLTienda|ST16
+PE|PPLCaja|1
+PE|prom|0
+PE|zona|N/A
+PE|idInterno|1 2022035474
+PE|CentroDistribucion|MAKRO MONTERIA
+PE|DirCentroDistribucion|Cra.  14  No.  48 A 42 
+PE|TelCentroDistribucion|N/A
+PE|CorreoDist|mariac2198@hotmail.com
+PE|PasaporteCliente|16-225764
+PE|BarrioCliente|MONTERIA
+PE|TelefonoCliente|N/A
+PE|vrPuntosCMR|0.00
+PE|vrEfectivo|0.00
+PE|vrTdebito|0.00
+PE|vrCheque|0.00
+PE|vrChequePost|0.00
+PE|vrBonos|0.00
+PE|vrTcredito|0.00
+PE|vrTprivada|1935371.00
+PE|vrNotaCredito|0.00
+PE|vrCreditoDirecto|0.00
+PE|vrDonacion|0.00
+PE|vrCambio|0.00
+PE|PuntosCMR|4699
+PE|CorteCMR|03/02/2022
+PE|Caja|1 38
+PE|TotalArticulos|389
+PE|TextoFecha|04-02-2022     17:41     1601 2022035474
+PES|CentroDist
+PESD|1|MAKRO MONTERIA
+PESD|2|Cra.  14  No.  48 A 42 
+PES|ResolucionesFactura
+PESD|1|AGENTE RETENEDOR IVA RES.00812 30/1/2006
+PESD|2|REG.COMUN GRAN CONTRIB Res.9061 Dic/2020
+PESD|3|AUTORETENEDORES DEL IMPUESTO DE RENTA SEGUN RESOL No 1524 DE FEB 20 DE 2006
+PES|Regimen
+PESD|1|REG.COMUN GRAN CONTRIB Res.9061 Dic/2020
+PESD|2| AUTORETENEDORES DEL IMPUESTO DE RENTA  
+PESD|3| SEGUN RESOL No 1524 DE FEB 20 DE 2006  
+PESD|4|        AGENTE RETENEDOR DE IVA         
+PESD|5|      RESOLUCION 00812 30/01/2006       
+PESD|6|
+PESD|7|
+PESD|8|
+PES|CambioMercancia
+PESD|1|(*)BIENES EXENTOS - DECRETO 417 DE 2020       CAMBIOS DENTRO DE LOS 7 DIAS HABILES A   PARTIR DE LA COMPRA,PRESENTA LA FACTURA 
+PES|Falabella
+PESD|1|Gracias por tu visita
+PESD|2|
+PESD|3|
+CTE||||dte_9000592385@dte.paperless.com.co|
+CTR||||mariac2198@hotmail.com|
+TRE|O-13;O-15|IVA|01
+TRR|R-99-PN|IVA|01</tem:docTxt>
+         <!--Optional:-->
+         <tem:tipoFoliacion>1</tem:tipoFoliacion>
+         <!--Optional:-->
+         <tem:tipoRetorno>5</tem:tipoRetorno>
+      </tem:OnlineGeneration>
+   </soapenv:Body>
+</soapenv:Envelope>

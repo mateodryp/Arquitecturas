@@ -1,0 +1,40 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:OnlineGeneration>
+         <!--Optional:-->
+         <tem:ruc>900059238</tem:ruc>
+         <!--Optional:-->
+         <tem:Login/>
+         <!--Optional:-->
+         <tem:clave>88833C6E-AD43-4E7D-9A9F-132199692827</tem:clave>
+         <!--Optional:-->
+         <tem:docTxt>EN|01|F|SETT|4000200|2022-03-17|09:26:19|COP||1|31|900059238|MAKRO SUPERMAYORISTA S.A.S|MAKRO SUPERMAYORISTA S.A.S|11001|||BOGOTA D.C.|Bogota D.C.|11|CALLE 192 19 12|CO|04|1|31|8160049983|COMERCIALIZADORA SANTANDER S.A.S.|COMERCIALIZADORA SANTANDER S.A.S.||||||BOGOTA D.C.|CR 18 A 103 11|CO|05|12270.00|12270.00|20242.00|0.00|0.00|0.00|20242.00
+ENEX|UBL 2.1|10||||||2022-03-17|2022-03-01||2022-03-31||4690|es|es|5|11001|BOGOTA D.C.|Bogota D.C.|11|CALLE 192 19 12|CO|Colombia|3|31||3|11001|BOGOTA D.C.|BOGOTA D.C.|11|CR 18 A 103 11|CO|Colombia|3|31|1|SETT|01552666|11|Colombia|11001|BOGOTA D.C.|Colombia|11|000000|11001
+RS|2019-01-19|2030-01-19|SETT|1|50000000||18760000001
+DE|1||ZZ|1|12270.00|12270.00||||||
+DEDI|PRUEBA OI|ZZ|1||12270.00|
+DEDI|-
+DEDI|-
+DEDI|-
+DEDI|20242.00
+DEIM|7972.00|12270.00|7972.00|65|01|IVA|||
+DIT|7972.00
+DI||12270.00|7972.00|65.00|01|7972.00|IVA|
+FP|2|ZZZ|17-MAR-22|1
+TRE|O-13;O-15|IVA|01
+TRR|R-99-PN|IVA|01
+CTE||||prodriguez@comersantander.com|
+CTR||||dte_9000592385@dte.paperless.com.co|
+PE|Plantilla |T01_EBS.jasper
+PE|CorreoDist|prodriguez@comersantander.com
+PE|Impresora|
+PE|TelEmi|6781616
+PE|idInterno|</tem:docTxt>
+         <!--Optional:-->
+         <tem:tipoFoliacion>1</tem:tipoFoliacion>
+         <!--Optional:-->
+         <tem:tipoRetorno>5</tem:tipoRetorno>
+      </tem:OnlineGeneration>
+   </soapenv:Body>
+</soapenv:Envelope> 

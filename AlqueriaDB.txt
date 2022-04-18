@@ -1,0 +1,13 @@
+ AlqueriaDB
+        server alqueriaebill.database.windows.net
+        SelfServiceBIPay
+        Micaro.998
+        Base de datos
+
+**********AlqueriaDB***************
+        AlqueriaDB
+        server:alqueriaebill.database.windows.net
+        SelfServiceBIPay
+        Micaro.998
+        Base de datos:
+        AlqueriaDB
